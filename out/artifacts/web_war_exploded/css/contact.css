@@ -1,0 +1,45 @@
+@media only screen and (max-width: 767px){
+	.contact{
+	margin-left:10vmin !important;
+    margin-right:10vmin !important;
+	}
+}
+.contact
+{
+    background-color: white;
+    margin-left:20vmin !important;
+    margin-right:20vmin !important;
+    padding-top:2vmin;
+    padding-left:1vmin;
+    padding-bottom: 5vmin;
+    margin-top: 2vmin;
+}
+.contact-title
+{
+    font-weight: bolder;
+    font-size:4vmin;
+    padding-left:2vmin;
+}
+.title-2
+{
+    padding-left: 2vmin;
+}
+.text
+{
+    padding-left:16vmin;
+    padding-right:16vmin;
+}
+.feedback
+{
+    background-color: black;
+    color: white;
+    height:7vmin;
+    padding:1vmin;
+    text-align: center;
+    font-size: 3.5vmin;
+}
+.f-form
+{
+    padding-right: 10vmin;
+    padding-left: 10vmin;
+}

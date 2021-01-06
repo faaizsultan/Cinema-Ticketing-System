@@ -1,0 +1,200 @@
+body
+{
+    background-image: url("../cinemapics/pic11.jpg");
+    background-color: rgba(0, 0, 0, 0.7);
+
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+
+}
+#logo
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vmin;
+    font-weight: bold;
+    color:blue;
+    margin-top: 0vmin;
+    padding-bottom: 0;
+}
+.lineStyling
+{
+    height: 0.25vmin;
+    background:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    margin:0;
+    padding:0;
+}
+nav ul li a:hover{color:red;}
+nav ul li a{
+    color:black;
+    font-weight: bold;
+    margin-right: 5vmin;
+}
+.customLink{ margin-right:13vmin;
+margin-top: 0.5vmin;}
+
+@media only screen and (max-width: 767px){
+    .fa{
+        display: none !important;
+    }
+    .secondNav{
+        margin-left:0 !important;
+    }
+    
+     #demo
+     {
+         margin-left:3vmin !important;
+         margin-right:3vmin !important;
+         height:40vmin;
+     }
+     .carousel-inner img{
+         height:40vmin !important;
+     }
+     .movie-cards
+     {
+         
+         margin-left:3vmin !important;
+         margin-right:3vmin !important;
+     }
+}
+@media only screen and (min-width:768px) and  (max-width:991px)
+{
+    .fa{
+        display: none !important;
+    }
+    .secondNav{
+        margin-left:0 !important;
+    }
+    
+     #demo
+     {
+         margin-left:4vmin !important;
+         margin-right:4vmin !important;
+         height:50vmin;
+     }
+     .carousel-inner img{
+         height:50vmin !important;
+     }
+     .movie-cards
+     {
+        
+         margin-left:4vmin !important;
+         margin-right:4vmin !important;
+     }
+}
+@media only screen and (min-width:992px) and (max-width:1350px)
+{
+    #demo
+    {
+        margin-left:6vmin !important;
+        margin-right:6vmin !important;
+        height:70vmin !important;
+    }
+    .carousel-inner img{
+        height:70vmin !important;
+    }
+    .movie-cards
+     {
+         
+         margin-left:6vmin !important;
+         margin-right:6vmin !important;
+     }
+}
+
+.fa-map-marker { color:red;}
+.main{ background-color:white;}
+.secondNav{
+    margin-left:27vmin ;
+}
+#kesa
+{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#demo
+{
+    margin-left:12vmin;
+    margin-right:12vmin;
+}
+
+#butn
+{
+ margin-top:3vmin;
+}
+.movie-cards
+{
+    margin-top: 3vmin;
+    background-color: white;
+    margin-left:12vmin;
+    margin-right:12vmin;
+}
+.btns
+{
+    padding-top:5.5vmin ;
+    padding-left:3vmin;
+    padding-bottom: 2vmin;
+}
+#cards
+{
+    padding-left:3vmin;
+    padding-right:3vmin;
+}
+.carousel-inner img
+{
+    height:100%;
+    width:100%;
+    border-radius: 0.5vmin;
+    border:0.6vmin solid rgb(212, 192, 192);
+    height:75vmin;
+}
+#demo
+{
+    margin-bottom: 3vmin;
+}
+.footer
+{
+    background: black !important;
+    padding-left: 25vmin;
+    padding-right: 5vmin;
+    padding-top:3vmin;
+    padding-bottom: 2vmin;
+    margin-top:2vmin;
+}
+#footer-logo
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vmin;
+    font-weight: bolder;
+    color:white;
+    margin-top: 2vmin;
+    padding-bottom: 0;
+}
+.general{
+    color: white;
+}
+.corporate{
+    color: white;
+}
+.footer a{
+	text-decoration:none;
+	color:#808080;
+}
+.footer a:hover{
+	color:red;
+}
+.footer-pro
+{
+    height:20vmin;
+    width:20vmin;
+    border-radius: 50%;
+}
+.sub
+{
+    color:white;
+    padding-top: 2vmin;
+    font-weight: bold;
+    font-size:2vmin;
+}
+

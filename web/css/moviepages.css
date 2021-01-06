@@ -1,0 +1,29 @@
+body{
+    background-image: url("pic11.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sliver{
+    font-size: 1.5vw;
+}
+.gold{
+    font-size: 1.5vw;
+}
+.sliverS{
+    background-color: silver;
+    font-size: 2vw;
+}
+.goldS{
+    font-size: 2vw;
+    background-color: gold;
+}
+.info{
+    background-color: cadetblue;
+    font-size: 2vw;
+}
+.moviename{
+    font-size: 4vw;
+    color: green;
+}

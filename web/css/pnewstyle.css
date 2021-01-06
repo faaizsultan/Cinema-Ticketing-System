@@ -1,0 +1,76 @@
+body
+{
+    background-image: url("images/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Courgette', cursive !important;
+    padding: 0;
+    margin: 0;
+}
+.bg-img
+{
+    /*background-image:url("images/attraction.jpg");*/
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    /*height:25vh;*/
+}
+
+.textOverImage{
+    border: 1px solid rgb(214, 211, 211);
+    border-radius: 30px;
+    /*padding: 30px;*/
+    position:relative;
+    height: 300px;
+    width: 300px;
+    float:left;
+    margin:4px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+  }
+  
+  .textOverImage:hover{
+    background-size:110%;
+  }
+  
+  .textOverImage:after{
+      border: 1px solid rgb(214, 211, 211);
+      border-radius: 30px;
+      padding: 30px;
+    position:absolute;
+    top:85%;
+    bottom:0;
+    left:0;
+    right:0;
+    white-space: pre-wrap;
+    overflow:hidden;
+    background-color:rgba(0,0,0,1);
+    color:#fff;
+    padding:0 8px;
+    content:attr(data-text);
+    font-weight: bold;
+
+  }
+  
+  .textOverImage:hover:after{
+    top:0;
+    text-align: center;
+    padding:8px;
+    background-color:rgba(0,0,0,0.5);
+    font-weight: bold;
+  }
+  
+  .textOverImage:first-line{
+    color:#fff;
+    font-weight:bold;
+    font-size:1.5em;
+    text-align: center;
+    margin-top: 5%;
+  }
+.row {
+    justify-content: center;
+}

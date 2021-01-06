@@ -1,0 +1,67 @@
+@media only screen and (max-width: 767px){
+    .fa{
+        display: none !important;
+    }
+    .second-nav{
+        margin-left:0 !important;
+    }
+    
+}
+.main1{background:rgba(0,0, 0, 0.5)}
+.second-nav{
+    margin-left:27vmin ;
+    color:white;
+}
+.custom-link{ margin-right:13vmin;
+    margin-top: 3vmin;
+    color:white;
+}
+.login-page
+{
+    background-color: white;
+    margin-left:20vmin !important;
+    margin-right:20vmin !important;
+    padding-top:2vmin;
+    padding-left:1vmin;
+    padding-bottom: 5vmin;
+}
+.login-title
+{
+    font-weight: bolder;
+    font-size:4vmin;
+    padding-left:2vmin;
+}
+.login-title-2
+{
+    padding-left:2vmin;
+}
+#login-form
+{
+    padding-top:6vmin;
+    padding-left:15vmin;
+    padding-right:15vmin;
+}
+#register-form
+{
+    padding-top:6vmin;
+    padding-right:15vmin;
+}
+.form-title
+{
+    font-weight: bold;
+    padding-bottom:2vmin;
+}
+#email{
+    margin-bottom: 2vmin;
+}
+#pwd{
+    margin-bottom: 2vmin;
+}
+.btn
+{
+    margin-top:2vmin !important;
+}
+#set-margin
+{
+margin-bottom:2vmin;
+}
